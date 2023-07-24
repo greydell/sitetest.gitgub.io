@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Osward&display=swap');
+
+body {
+    font-family: Osward, Arial, Helvetica, sans-serif;
+    background: radial-gradient( #060D12 0%, #0B101B 43%, #0B101B 100%);
+}
+
+
+p {
+    color: rgb(240, 240, 240);
+}
+
+.nav-link {
+    color: rgb(238, 238, 238);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(190, 190, 190);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(190, 190, 190);
+}
+
+.sidebar {
+    color: rgb(240, 240, 240);
+    background-color: #060D12;
+}
+
+.card {
+    color: rgb(145, 145, 145);
+    background: radial-gradient( #030d14 0%, #030508 43%, #05080e 100%);
+
+}
+
+.card-title {
+    color: rgb(240, 240, 240);
+}
+
+.card .card-text a {
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+}
+
+.card .card-title a {
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
+
+.slide-text,
+.footer-text {
+    color: rgb(240, 240, 240);
+    margin: auto auto;
+}
+
+.slide-text p {
+    font-size: 24px;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+footer,
+.btn-outline-primary {
+    background-color: #0d131d;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anim {
+    animation: myAnim 2s ease 0s infinite normal both;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
